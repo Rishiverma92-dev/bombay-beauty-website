@@ -1,0 +1,354 @@
+/* =========================
+   LARGE TABLETS
+========================= */
+
+@media(max-width:1200px){
+
+header{
+
+padding:18px 30px;
+
+}
+
+.overlay h1{
+
+font-size:4.2rem;
+
+}
+
+.portfolio-section{
+
+padding:32px;
+
+}
+
+}
+
+
+
+
+/* =========================
+   TABLETS
+========================= */
+
+@media(max-width:900px){
+
+.connect-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+
+/* HEADER */
+
+header{
+
+padding:16px 22px;
+
+}
+
+.logo img{
+
+width:42px;
+
+height:42px;
+
+}
+
+.brand-name{
+
+font-size:.95rem;
+
+}
+
+nav{
+
+gap:6px;
+
+}
+
+nav a{
+
+padding:10px;
+
+font-size:.88rem;
+
+}
+
+
+
+/* HERO */
+
+.overlay h1{
+
+font-size:3rem;
+
+line-height:1.15;
+
+}
+
+.overlay p{
+
+font-size:1rem;
+
+}
+
+.hero-btn{
+
+padding:16px 28px;
+
+}
+
+
+
+/* SERVICES */
+
+.services-heading h2{
+
+font-size:2rem;
+
+}
+
+.services-filter{
+
+padding:28px 5%;
+
+justify-content:flex-start;
+
+overflow-x:auto;
+
+flex-wrap:nowrap;
+
+scrollbar-width:none;
+
+}
+
+.services-filter::-webkit-scrollbar{
+
+display:none;
+
+}
+
+.service-link{
+
+white-space:nowrap;
+
+flex-shrink:0;
+
+}
+
+
+
+/* PORTFOLIO */
+
+.portfolio-section{
+
+padding:24px;
+
+}
+
+.section-title{
+
+font-size:1.6rem;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+
+width:48px;
+
+height:48px;
+
+}
+
+
+
+/* WHY */
+
+.why{
+
+padding:45px 24px;
+
+}
+
+.why h2{
+
+font-size:2rem;
+
+}
+
+
+
+/* REVIEWS */
+
+.reviews{
+
+padding:45px 22px;
+
+}
+
+.reviews h2{
+
+font-size:2rem;
+
+}
+
+.review-form .btn{
+
+width:100%;
+
+}
+
+.review-box{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+/* CONNECT */
+
+.connect{
+
+padding:50px 22px;
+
+}
+
+.connect-card{
+
+padding:34px;
+
+}
+
+.connect-card h2{
+
+font-size:2rem;
+
+}
+
+.visit-head h2{
+
+font-size:2rem;
+
+}
+
+.visit-map iframe{
+
+height:360px;
+
+}
+
+.premium-btn{
+
+width:100%;
+
+}
+
+}
+
+
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:480px){
+
+
+.brand-name{
+
+display:none;
+
+}
+
+
+
+/* HERO */
+
+.overlay h1{
+
+font-size:2.4rem;
+
+}
+
+
+
+/* REVIEWS */
+
+.review{
+
+padding:28px;
+
+}
+
+
+
+/* MAP */
+
+.visit-map iframe{
+
+height:280px;
+
+}
+
+
+
+/* CARDS */
+
+.connect-card{
+
+padding:26px;
+
+}
+
+.service-link{
+
+padding:12px 16px;
+
+}
+
+}
+
+
+
+
+/* =========================
+   LANDSCAPE MOBILE
+========================= */
+
+@media(max-height:600px){
+
+.overlay h1{
+
+font-size:2.5rem;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+}
+
+header{
+
+padding:14px 24px;
+
+}
+
+}
