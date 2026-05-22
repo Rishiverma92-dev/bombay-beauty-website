@@ -432,53 +432,71 @@ const allSwipers = document.querySelectorAll(".swiper");
 
 allSwipers.forEach(swiper => {
 
-    const section = swiper.closest(".portfolio-section");
+const section =
+swiper.closest(".portfolio-section");
 
-    const nextBtn = section.querySelector(".swiper-button-next");
-    const prevBtn = section.querySelector(".swiper-button-prev");
+const nextBtn =
+section.querySelector(".swiper-button-next");
 
-    new Swiper(swiper, {
+const prevBtn =
+section.querySelector(".swiper-button-prev");
 
-        loop: true,
+new Swiper(swiper,{
 
-        speed: 800,
+loop:true,
 
-        grabCursor: true,
+speed:800,
 
-        centeredSlides: false,
+grabCursor:true,
 
-        slidesPerView: 4.2,
+centeredSlides:false,
 
-        slidesPerGroup: 4,
+slidesPerView:4.2,
 
-        spaceBetween: 28,
+slidesPerGroup:1,
 
-        navigation: {
-            nextEl: nextBtn,
-            prevEl: prevBtn,
-        },
+spaceBetween:28,
 
-        breakpoints: {
+navigation:{
+nextEl:nextBtn,
+prevEl:prevBtn,
+},
 
-            0: {
-                slidesPerView: 1.15,
-                spaceBetween: 18,
-            },
+breakpoints:{
 
-            768: {
-                slidesPerView: 2.3,
-                spaceBetween: 22,
-                slidesPerGroup:1,
-            },
+0:{
 
-            1024: {
-                slidesPerView: 4.2,
-                spaceBetween: 28,
-            }
+slidesPerView:1,
 
-        }
+slidesPerGroup:1,
 
-    });
+spaceBetween:18,
+
+},
+
+768:{
+
+slidesPerView:2.3,
+
+slidesPerGroup:1,
+
+spaceBetween:22,
+
+},
+
+1024:{
+
+slidesPerView:4.2,
+
+slidesPerGroup:1,
+
+spaceBetween:28,
+
+}
+
+}
+
+});
 
 });
 const serviceLinks =
