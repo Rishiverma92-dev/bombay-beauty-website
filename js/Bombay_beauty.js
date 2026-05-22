@@ -427,18 +427,18 @@ function displayReviews() {
 
 
 
+const allSwipers =
+document.querySelectorAll(".swiper");
 
-const allSwipers = document.querySelectorAll(".swiper");
+allSwipers.forEach(swiper=>{
 
-allSwipers.forEach(swiper => {
-
-const section =
+const section=
 swiper.closest(".portfolio-section");
 
-const nextBtn =
+const nextBtn=
 section.querySelector(".swiper-button-next");
 
-const prevBtn =
+const prevBtn=
 section.querySelector(".swiper-button-prev");
 
 new Swiper(swiper,{
@@ -453,7 +453,7 @@ centeredSlides:false,
 
 slidesPerView:4.2,
 
-slidesPerGroup:1,
+slidesPerGroup:5,
 
 spaceBetween:28,
 
@@ -488,7 +488,7 @@ spaceBetween:22,
 
 slidesPerView:4.2,
 
-slidesPerGroup:1,
+slidesPerGroup:5,
 
 spaceBetween:28,
 
