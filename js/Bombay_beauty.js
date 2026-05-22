@@ -198,6 +198,15 @@ document.addEventListener("mousemove", (e) => {
     mouse.y = e.clientY;
 
 });
+/* MOBILE TOUCH */
+
+document.addEventListener("touchmove",(e)=>{
+
+mouse.x=e.touches[0].clientX;
+
+mouse.y=e.touches[0].clientY;
+
+},{passive:true});
 
 
 /* =========================
